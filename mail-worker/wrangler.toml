@@ -15,9 +15,9 @@ enabled = true
 #binding = "kv"			# KV binding name; do not change
 #id = ""					# KV namespace id
 
-#[[r2_buckets]]
-#binding = "r2"			# R2 binding name; do not change
-#bucket_name = ""		# R2 bucket name
+[[r2_buckets]]
+binding = "r2"			# R2 binding name; do not change
+bucket_name = "cloud-mail-attachments"	# R2 bucket name
 
 #[[send_email]]
 #name = "email"			# Cloudflare Email Sending; used first if configured
